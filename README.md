@@ -1,5 +1,26 @@
-**Does Rodri deserve the Ballon d'Or?**
+**Rodri's Case for the Ballon d'Or: A Data-Driven Analysis**
 
-There was a huge uproar in the football world when Vinicius Jr. and the the Real Madrid contingent decided not to travel to the Ballon d'Or ceremony when they were told they Rodri of Manchester City would be winning the Ballon d'Or. Former legends of Real Madrid and Vini's team-mates spoke out against the decision as they believed Vinicius had an extraordinary season and deserved the Ballon d'Or ahead of Rodri. As a result, there was a lot of debate online and among pundits discussing whether a defensive midfielder truly deserved the award ahead of a left winger. After all, the Ballon d'Or is awarded to the most influential player of the most successful team of the year. Was Rodri, a CDM without much of a direct goal threat, more influential for Manchester City and Spain, than Vinicius was for Real Madrid and Brazil with 26 goals and 11 assists?   
-Now, although I am not a Manchester City fan (my heart beats blue, but for Chelsea), I still believe that Rodri deserves the award. I hope to show through this analysis of the Quarter-Finals of Euro 2024 between Spain and Germany just how important Rodri is for Spain with his influential progressive passes and build-up play. I will not be going deep into his defensive numbers as even the most die-hard Vini fan will tell you that he is just phenomenal defensively.   
-Coming to the project, I used numpy, pandas, [statsbombpy](https://github.com/statsbomb/open-data) and [mplsoccer](https://github.com/andrewRowlinson/mplsoccer) libraries. Additionally, I cleaned the data from [statsbomb](https://statsbomb.com/what-we-do/hub/free-data/). Would appreciate any constructive feedback on the project.
+Objective
+This project analyzes Rodri’s impact in the Euro 2024 Quarter-Final between Spain and Germany to evaluate whether he deserves the Ballon d'Or ahead of more attacking players like Vinícius Júnior. The aim is to highlight the importance of Rodri’s role as a defensive midfielder, especially in areas like progressive passing, tempo control, and build-up play — aspects that traditional goal and assist stats often overlook.
+
+Background
+The 2024 Ballon d'Or race sparked debate when reports emerged that Rodri would win the award. In protest, Vinícius Júnior and several Real Madrid teammates reportedly chose not to attend the ceremony, believing Vinícius’s 26 goals and 11 assists made him the rightful winner.
+
+This project does not aim to dismiss Vinícius’s season, but to offer a data-driven argument in favor of Rodri — a player whose influence is less visible in highlight reels but central to both Manchester City’s and Spain’s success.
+
+Methodology
+The analysis is centered around the Spain vs Germany Euro 2024 Quarter-Final match. Using event-level data from StatsBomb, the project focuses on:
+Progressive passes by Rodri
+His involvement in Spain’s build-up play
+Pass networks showing his centrality
+Positioning and movement across phases of play
+Rodri’s defensive numbers, while elite, are not the focus here — as they are already widely accepted.
+
+Tools Used
+numpy
+pandas
+[statsbombpy](https://github.com/statsbomb/open-data) (for retrieving StatsBomb data)
+[mplsoccer](https://github.com/andrewRowlinson/mplsoccer) (for visualizing match events and pass maps)
+
+Data
+All event data is sourced from StatsBomb via the statsbombpy API. The data has been cleaned and pre-processed from [statsbomb](https://statsbomb.com/what-we-do/hub/free-data/) to focus only on relevant metrics.
